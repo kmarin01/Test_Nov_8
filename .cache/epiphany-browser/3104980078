@@ -1,0 +1,38 @@
+/*website background color*/
+body {
+	background-color: #1C406F;
+}
+/*header background color and height*/
+#header {
+    background-color: #1C406F;
+	height: 100px;
+}
+/*header title color*/
+#section-head {
+    color: #FFFFFF;
+}
+/*logo path, image height and margin from the top of the page*/
+#logo a {
+	background:url(/portal_resources/images/bluecat-logo.png) transparent no-repeat left top;
+	height: 43px;
+	margin-top:30px;
+}
+/*separator line style*/
+.portal_hr {
+	/*display:none; */
+        background: #1C406F;
+        border-top:1px solid #fff;
+        border-bottom:1px solid #fff;
+        height:7px;
+}
+/*main content background*/
+#main {
+    background: none repeat scroll 0 0 #fff;
+}
+/*footer background color, height and text color*/
+#footer {
+    background-color: #1C406F;
+    color: #96AAD7;
+    font-size: 12px;
+    height: 70px;
+}

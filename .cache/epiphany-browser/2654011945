@@ -1,0 +1,1 @@
+#auth-code .auth-box{padding:10px;border:solid 1px #eee;width:100%;text-align:center}#auth-code .button-wrapper{text-align:center;width:100%;margin-top:10px}#auth-code #auth-clipboard-button{display:none}

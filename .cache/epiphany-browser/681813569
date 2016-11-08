@@ -1,0 +1,2 @@
+define(["react"],function(e){var n;switch(e.version.substring(0,4)){case"0.13":n={findDOMNode:e.findDOMNode,unmountComponentAtNode:e.unmountComponentAtNode,render:e.render,version:"0.13-shim"};break;default:throw new Error("The ReactDOM shim should only be required with React 0.13")}return n});
+//# sourceMappingURL=react-dom-shim.min.js-vfletzW_2.map

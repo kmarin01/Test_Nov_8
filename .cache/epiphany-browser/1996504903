@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/comments/models/comment","modules/clean/comments/store"],function(t,e,n,i){"use strict";function a(t,e){if(t.stickerId||e){var a=e?i.state.activity.latest_revision:null,o=e?e.toMetadataDict():null;return new n.CommentMetadata({revision:a,annotation:o,sticker_id:t.stickerId})}return null}e.buildCommentMetadata=a});
+//# sourceMappingURL=action_creators_helpers.min.js-vflJcByZ_.map

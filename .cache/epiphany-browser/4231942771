@@ -1,0 +1,99 @@
+/*website background color*/
+body {
+    background-color: #FFFFFF;
+}
+/*header background color and height*/
+#header {
+    background-color: #FFFFFF;
+    height: 94px;
+}
+/*header title color*/
+#section-head {
+    color: #69421f;
+}
+/*logo path, image height and margin from the top of the page*/
+#logo a {
+    background: url(/portal_resources/html/tts-network-registration.png) no-repeat top;
+    height: 105px;
+    width: 352px;
+    margin-top:10px;
+}
+/*separator line style*/
+.portal_hr {
+    /*display:none; */
+    background: #646569;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+    height:12px;
+}
+/*main content background*/
+#main {
+    background: none repeat scroll 0 0 #fff;
+}
+/*footer background color, height and text color*/
+#footer {
+    background-color: #FFFFFF;
+    color: #6D6F72;
+    font-size: 12px;
+    height: 70px;
+}
+.aup_scrollbox {
+    font-size: 12px;
+    color: #000000;
+    background: #F1F1F2;
+    height: 300px;
+    width: 720px;
+    padding: 5px;
+    overflow: auto;
+}
+.prop.title, .content {
+    color: #000;
+    background: #F1F1F2;
+    border-radius: 4px;
+}
+.rounded-button, input[type="submit"] {
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #255683;
+    background: #3172AE;
+}
+.rounded-button:hover, input[type="submit"]:hover {
+    cursor:pointer;
+    background: #E9E0D7;
+}
+.button input:hover, .prop input[type="submit"]:hover {
+    background: #525356;
+    border-color: #525356;
+}
+.button input#clear, .button input.grey, .prop input[type="submit"].grey {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #6D6F72;
+    color: #6D6F72;
+    font-size: 16px;
+    background: #F1F1F2;
+}
+.button input#clear:hover, .button input.grey:hover {
+    background: #525356;
+    color: white;
+}
+#main {
+    background: none repeat scroll 0 0 #fff;
+    overflow: visible;
+}
+#main a {
+    color: #3172AE;
+}
+#main .content a {
+    color: #3172AE;
+}
+#main .rounded-button a {
+    color: #000;
+}
+#footer a {
+    color: #3172AE;
+}

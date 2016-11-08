@@ -1,0 +1,904 @@
+body{
+	border: 0 none;
+    margin: 0;
+    padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.blacklist-formsety .prop input[type="text"], .blacklist-formsety .prop select, .blacklist-formsety .prop input[type="password"] {
+     display: block;  
+     border: 1px solid #C7C8CA;  
+     margin: 0px 10px 0 0;  
+     padding: 9px 4px;  
+     width: 274px;  
+     font-family: Helvetica Neue, Helvetica, Arial !important;
+}
+
+.prop input[type="text"], .prop select, .prop input[type="password"] {
+     display: block;  
+    border: 1px solid #C7C8CA;  
+     margin: 0px 10px 0 0;  
+     padding: 9px 4px;  
+     width: 300px; 	
+	 font-family: Helvetica Neue, Helvetica, Arial !important;
+}
+.prop select {
+	line-height:33px;
+}
+
+input[type="submit"], input[type="button"], input[type="password"]
+{
+	 font-family: Arial, Helvetica, sans-serif;
+}
+
+.prop input[type="submit"].delete:hover {
+	background: #FF0000;
+}
+
+.prop input[type="submit"].delete {
+	background: #DF0000;
+}
+
+div.button-bar
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+div.button-bar a
+{
+  white-space: nowrap;
+	text-decoration: none;
+}
+
+.rounded-button, input[type="submit"]
+{
+	font-size: 14px;
+	line-height: normal;
+	color: #ffffff;
+	padding: 5px 24px;
+	background: #00AEEF;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	display: inline-block;
+	margin: 8px 0;
+	border:none;
+	text-decoration: none;
+}
+
+#main .rounded-button a
+{
+	text-decoration: none;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.rounded-button:hover, input[type="submit"]:hover
+{
+  cursor:pointer;
+	background: #1FC4FF;
+}
+
+.small-button, input[type="submit"].small-button
+{
+	padding: 3px 14px;
+}
+
+.medium-button, input[type="submit"].medium-button
+{
+  padding: 5px 24px;
+}
+
+.large-button, input[type="submit"].large-button
+{
+	padding: 7px 32px;
+}
+
+.hint {
+	background: url(../images/icon_help.png) no-repeat left 50% transparent;
+    line-height: 40px;
+    padding: 20px 11px;
+	float:right;
+	margin:0 50px 0 0;
+}
+
+.hint2 {
+    margin:0 0 0 0;
+}
+
+.tooltip {
+    -moz-box-shadow: 0 0 10px #555555;
+    background: #58585A;
+    border: 1px solid #fff;
+    color: #FFFFFF;
+    display: none;
+    font-size: 10px;
+    padding: 5px 10px;
+    text-align: left;
+    width: auto;
+	font-weight:bold;
+}
+
+div.errors ul{
+	padding: 0;	
+	margin: 0 0 20px 0 !important;
+}
+div.errors ul li{
+	list-style-type:none !important;	
+	background: url(/portal_resources/images/icon_info.png) no-repeat left 50% transparent;
+	padding: 5px 0 5px 30px;		
+}
+.flash{
+	background: url(/portal_resources/images/icon_info.png) no-repeat left 50% transparent;
+	line-height:21px;
+	padding: 0 0 0 30px;	
+	margin:10px 0;	
+}
+
+table {
+	width:100%;
+}
+.prop {
+	background:#E7E7E8;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 11px;
+    border-radius: 10px;
+
+	margin: 8px 0;
+	font-size:12px;
+	display:block;
+	min-height: 40px;
+	padding:5px 20px 5px 20px;
+}
+.prop div.name{
+	float:left;
+}
+.prop.error {
+	background: url(../images/icon_info.png) 98% 50% no-repeat #E7E7E8;
+}
+.prop.blank {
+	background:none;
+	margin: 0;
+    padding: 0;
+}
+.prop .name {
+	color:#58585A;
+    font-size: 14px;
+	vertical-align:middle;
+	width:auto;
+	height:40px;
+	padding:0 20px 0 0;
+	line-height: 40px;
+	overflow:hidden;
+}
+/*
+.prop .name.label {
+	width:400px;
+	font-weight:bold;
+}
+*/
+.prop .name .label{
+        width:200px;
+	margin-right:20px;
+
+}
+.prop.title, .content {   
+	color: #FFF;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+    border-radius: 10px;
+	
+	padding:20px 10px 20px 20px;
+	font-size:14px;
+	background:#818285;
+	    background: -webkit-gradient(linear, left top, right top, from(#A7A9AC), to(#818285));
+        background: -moz-linear-gradient(left, #A7A9AC, #818285);
+/*        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFA7A9AC, endColorStr=#FF818285, GradientType=1);
+       -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFA7A9AC, endColorstr=#FF818285, GradientType=1)";*/
+	margin:0px 0 0 0;   
+	
+}
+.prop.title .name{
+	color: #FFF;
+}
+
+.prop.search
+{
+  background: #D7D7E0;
+  margin-top: 16px;
+  padding: 8px 20px 8px 20px;
+}
+
+#main .content a
+{
+	color: #89D7FF;
+}
+
+#main .button-bar a
+{
+	color: #FFFFFF;
+}
+
+#query_results input[type="text"]{
+	width:100px;
+	padding:0;
+	margin:0 auto;
+}
+#query_results .prop .name {
+    width: 120px;
+	text-align:center;
+}
+#query_results .prop .name.short {
+    width: 80px;
+}
+#query_results .prop .name.long {
+    width: 160px;
+}
+#query_results .prop .name.verylong {
+    width: 220px;
+}
+#query_results .prop .name.long input {
+	width:auto;
+}
+#query_results .prop .name.verylong input {
+  width:auto;
+}
+#query_results .prop .buttons {
+	 text-align:right;
+/*	 background: #D7D7D8; */
+  border-top: 1px solid #D7D7D8;
+	 padding:4px;
+}
+
+#query_results .update-button
+{
+  margin: 0;
+}
+
+#query_results .blacklist-button
+{
+  margin: 0;
+}
+
+#query_results .blacklist-button:hover
+{
+}
+
+#query_results .delete-button
+{
+  margin: 0;
+}
+
+#query_results .delete-button:hover
+{
+}
+
+#query_results .blacklisted-label
+{
+  color: black;
+  font-weight: bold;
+}
+
+#query_results .blacklisted
+{
+  color: black;
+  font-weight: medium;
+  margin-right: 8px;
+}
+
+#query_results .prop .name.first {
+	text-align:left;
+}
+
+#query_results .prop .icon
+{
+	text-align:left;
+	position:relative;
+	width:24px;
+}
+
+#query_results img.status
+{
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+
+#query_results .prop .name.last {
+	float:right;
+}
+#query_results .prop .name.last input[type="text"] {
+	margin:0 0 0 auto;
+}
+#query_results .prop .name {
+    line-height: normal;
+}
+
+#query-action-result
+{
+	/* background: #9BB4A0; */
+	padding: 8px 12px 8px 12px;
+	margin-bottom: 16px;
+}
+
+/********/
+h1 {font-size:24px;}
+#header {
+    background-color: #0E4C92;
+	height: 100px;
+}
+#logo{
+    float:left;
+	width:40%;
+}
+#logo a {
+	display:block;
+	margin-top:10px;
+}
+#section-head{
+    float:right;
+	color:#FFF;
+	width:60%;
+	text-align:right;
+	padding-top:20px;
+}
+#section-head a
+{
+	text-decoration: none;
+	color: white;
+}
+#logout{
+    float:right;
+	text-align:right;
+}
+#section-head h1{
+	margin: 40px 0 0 0;
+}
+
+.container {
+    border:none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+	width: 768px;
+}
+.container h2{
+	text-align:center;
+}
+#logout, #logout a {
+color:#eee;	
+font-size:12px;
+}
+#logout a {
+	text-decoration:underline;	
+}
+
+
+.prop input[type="text"]:hover, .prop select:hover {
+	border-color: #666;
+}
+/*.prop input[type="text"]:focus {
+	-moz-box-shadow: 0 0 6px #666;
+	-webkit-box-shadow: 0 0 6px #666;
+} */
+
+
+.button input#clear, .button input.grey, .prop input[type="submit"].grey {
+	background: #78787B;
+}
+.button input#clear:hover, .button input.grey:hover {
+	background: #97979F;
+}
+
+.button #register {
+    margin: 0;
+	padding: 7px 30px;
+	*padding: 7px 20px;
+}
+
+#aup input[type="submit"]
+{
+	margin-top: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-bottom: 0em;
+}
+
+#footer {
+    height: 70px;
+	background-color: #0E4C92;
+	color:#ccc;
+	padding-top:20px;
+	margin-top:20px;
+	font-size:12px;
+}
+#footer a{
+	color:#fff;
+}
+.help {
+	background: url(../images/icon_support.png) no-repeat left 50% transparent;	
+	padding: 10px 0 10px 40px;
+	display:block;
+}
+.dialog .prop .name{
+	width: 25%;
+}
+.dialog .prop .name.short{
+	width: 15%;
+}
+.dialog .prop .name.long{
+	width: 45%;
+}
+.dialog .prop .name.label{
+	width: 180px;
+	font-weight:bold;
+}
+.clear {
+	background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    clear: both;
+    display: block;
+    float: none;
+    font-size: 0;
+    height: 0;
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    visibility: hidden;
+    width: 0;
+}
+/* --- */
+
+
+#main {
+    background: none repeat scroll 0 0 #fff;
+    overflow: hidden;
+	height:auto;
+	padding:20px 0;
+}
+#footer {
+    background-color: #000;
+    color: #CCCCCC;
+    font-size: 12px;
+    height: 70px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#main a{
+	color:#39C;
+}
+#main a.rounded-button
+{
+  text-decoration: none;
+  white-space: nowrap;
+	color:white;
+}
+.formsety .prop .name.label {
+    width: 320px;
+}
+
+.blacklist-formsety .prop .name.label {
+    width: 85px;
+}
+
+#query_results table {
+	padding:0 !important;
+	border:none !important;
+}
+#query_results table th, #query_results table td {
+    border: 1px solid #666666;
+    padding: 5px;
+}
+.dialog div.errors ul li{
+	color:#58585A;
+	background: url(../images/icon_info.png) no-repeat left 50% transparent;
+}
+.prop div.name.right {
+    float: right;
+}
+.prop .name {
+    padding: 0;
+}
+
+#logout {
+color:#777;
+}
+
+
+/*
+ * MAC Address table layout (as seen on registration page).
+*/
+
+/* Table common settings. */
+table.mac-address 
+{
+	border-spacing: 0px 4px;
+	color: #58585A;
+	font-size: 14px;
+}
+
+/* Table header background. */
+table.mac-address tr:first-child
+{
+	background: #DADADE;
+}
+
+/* Table row (data) background. */
+table.mac-address tr
+{
+	background: #E7E7E8;
+}
+
+/* Table cell metrics and alignment (all cells). */
+table.mac-address tr th, table.mac-address tr td
+{
+ 	white-space: nowrap;
+ 	text-align: left;
+	padding: 8px;
+}
+
+/* Table cell metrics and alignment (dominant column). */
+table.mac-address tr th.dominant, table.mac-address tr td.dominant
+{
+	width: 100%;
+}
+
+/* Rounded left end for table rows (all). */
+table.mac-address tr th:first-child, table.mac-address tr td:first-child
+{
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;
+	text-align: center;
+	padding-left: 16px;
+}
+
+/* Rounded right end for table rows (all). */
+table.mac-address tr th:last-child, table.mac-address tr td:last-child
+{
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+	text-align: center;
+	padding-right: 16px;
+}
+
+/* No link border around linked table images. */
+
+table.mac-address img
+{
+	border: none;
+}
+
+table.mac-address input[type="submit"], table.mac-address .rounded-button
+{
+	margin: 0;
+}
+
+div.mac-address-container form
+{
+	margin-bottom: 0;
+}
+
+table.mac-address input[type="submit"]
+{
+  width: 96px;
+  height: 26px;
+  padding-left: 20px; 
+  padding-right: 20px;
+}
+
+span.blacklisted-button
+{
+  width: 64px;
+  height: 16px;
+  padding-left: 16px; 
+	padding-right: 16px;
+	background: #606060;
+}
+
+span.blacklisted-button:hover
+{
+  background: #808080;
+}
+
+/* --- */
+
+div.blacklist-reason
+{
+  background: #808080;
+  padding: 8px 12px 8px 12px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+/* --- */
+
+/*
+ * Compliance Rules table layout (as seen on compliance status page).
+*/
+
+/* Table common settings. */
+table.compliance-rules 
+{
+	border-spacing: 0px 4px;
+	color: #58585A;
+	font-size: 14px;
+}
+
+/* Table header background. */
+table.compliance-rules tr:first-child
+{
+	background: #DADADE;
+}
+
+/* Table row (data) background. */
+table.compliance-rules tr
+{
+	background: #E7E7E8;
+}
+
+/* Table cell metrics and alignment (all cells). */
+table.compliance-rules tr th, table.compliance-rules tr td
+{
+ 	white-space: nowrap;
+ 	text-align: left;
+	padding: 8px;
+}
+
+/* Table cell metrics and alignment (dominant column). */
+table.compliance-rules tr th.dominant, table.compliance-rules tr td.dominant
+{
+	width: 100%;
+	white-space: pre-line;
+	word-wrap: break-word;
+    word-break: break-all;
+}
+
+/* Rounded left end for table rows (all). */
+table.compliance-rules tr th:first-child, table.compliance-rules tr td:first-child
+{
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;
+	text-align: left;
+	padding-left: 16px;
+}
+
+/* Rounded right end for table rows (all). */
+table.compliance-rules tr th:last-child, table.compliance-rules tr td:last-child
+{
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+	text-align: center;
+	padding-right: 16px;
+}
+
+/* No link border around linked table images. */
+
+table.compliance-rules img
+{
+	border: none;
+}
+
+
+/*
+ * Enrollment Steps table layout (as seen on compliance enrollment page).
+*/
+
+/* Table common settings. */
+table.enrollment-steps 
+{
+  border-spacing: 0px 2px;
+  color: #58585A;
+  font-size: 14px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: none;
+}
+
+/* Table header background. */
+table.enrollment-steps tr:first-child
+{
+  background: #DADADE;
+  background: -webkit-gradient(linear, left top, right top, from(#DADADE), to(#D0D0D0));
+  background: -moz-linear-gradient(left, #DADADE, #D0D0D0);
+}
+
+/* Table row (data) background. */
+table.enrollment-steps tr
+{
+  background: #DADADA;
+}
+
+/* Table cell metrics and alignment (all cells). */
+table.enrollment-steps th, table.enrollment-steps td
+{
+/*  white-space: nowrap; */
+  text-align: left;
+  padding: 8px;
+  vertical-align: top;
+}
+
+/* Table header cell metrics and alignment. */
+table.enrollment-steps tr th
+{
+	vertical-align: center;
+	color: #404040;
+  padding: 12px;
+}
+
+/* Table cell metrics and alignment (dominant column). */
+table.enrollment-steps tr th.dominant, table.enrollment-steps tr td.dominant
+{
+  width: 100%;
+}
+
+/* Rounded left end for table header. */
+table.enrollment-steps tr th
+{
+  -moz-border-radius-topleft:10px;
+  -webkit-border-top-left-radius:10px;
+  border-top-left-radius:10px;
+  -moz-border-radius-bottomleft:10px;
+  -webkit-border-bottom-left-radius:10px;
+  border-bottom-left-radius:10px;
+  -moz-border-radius-topright:10px;
+  -webkit-border-top-right-radius:10px;
+  border-top-right-radius:10px;
+  -moz-border-radius-bottomright:10px;
+  -webkit-border-bottom-right-radius:10px;
+  border-bottom-right-radius:10px;
+  vertical-align: bottom;
+  text-align: left;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Rounded left end for table rows (all). */
+table.enrollment-steps tr td:first-child
+{
+  -moz-border-radius-topleft:6px;
+  -webkit-border-top-left-radius:6px;
+  border-top-left-radius:6px;
+  -moz-border-radius-bottomleft:6px;
+  -webkit-border-bottom-left-radius:6px;
+  border-bottom-left-radius:6px;
+  text-align: left;
+  padding-left: 16px;
+}
+
+/* Rounded right end for table rows (all). */
+table.enrollment-steps tr td:last-child
+{
+  -moz-border-radius-topright:6px;
+  -webkit-border-top-right-radius:6px;
+  border-top-right-radius:6px;
+  -moz-border-radius-bottomright:6px;
+  -webkit-border-bottom-right-radius:6px;
+  border-bottom-right-radius:6px;
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 16px;
+  min-width: 16em;
+}
+
+table.enrollment-steps td.payload
+{
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 16px;
+  min-width: 16em;
+}
+
+table.enrollment-steps tr.completed-step 
+{
+  background: #EFEFFF;
+  color: #000000;
+}
+
+table.enrollment-steps tr.previous-step
+{
+  -webkit-transition: background 1s linear;
+  -moz-transition: background 1s linear;
+  -o-transition: background 1s linear;
+  transition: background 1s linear;
+  background: #D7D7F0;
+  color: #000000;
+}
+
+table.enrollment-steps tr.previous-step-deactivate
+{
+  background: #EFEFFF;
+}
+
+table.enrollment-steps tr.current-step
+{
+  -webkit-transition: background 1s linear;
+  -moz-transition: background 1s linear;
+  -o-transition: background 1s linear;
+  transition: background 1s linear;
+  background: #D0D0D0;
+}
+
+table.enrollment-steps tr.current-step-activate
+{
+  background: #D7D7F0;
+}
+
+table.enrollment-steps tr.current-step-noadvance
+{
+  background: #D7D7F0;
+}
+
+table.enrollment-steps tr.current-step div.step-title, table.enrollment-steps tr.current-step-noadvance div.step-title
+{
+  margin-bottom: 0.5em;
+}
+
+table.enrollment-steps tr.current-step div.step-title span.step-id, table.enrollment-steps tr.current-step-noadvance div.step-title span.step-id
+{
+  color: #000000;
+}
+
+table.enrollment-steps tr.current-step div.step-title span.step-title, table.enrollment-steps tr.current-step-noadvance div.step-title span.step-title
+{
+  font-weight: bold;
+	color: #404080;
+}
+
+table.enrollment-steps tr.current-step td:first-child, table.enrollment-steps tr.current-step-noadvance td:first-child
+{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+table.enrollment-steps tr.current-step div.step-description, table.enrollment-steps tr.current-step-noadvance div.step-description 
+{
+  color: #404040;
+  margin-left: 1em;
+  margin-right: 0.5em;
+}
+
+table.enrollment-steps tr.pending-step
+{
+  color: #808080;
+  background: #D0D0D0;
+}
+
+table.enrollment-steps .rounded-button, table.enrollment-steps input[type="submit"]
+{
+	margin: 0;
+}
+
+table.enrollment-steps .continue-button
+{
+	margin-top: 8px;
+}
+
+/* No link border around linked table images. */
+
+table.enrollment-steps img
+{
+  border: none;
+}
+

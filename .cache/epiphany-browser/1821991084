@@ -1,0 +1,19 @@
+function asyncDetectMac(target, check)
+{
+    var go = !check
+    
+    if( check && $(target).value.length < 1 )
+    {
+        go = true
+    }
+    
+    if( go )
+    {
+        new Ajax.Request('/register/detect', 
+        {
+        	asynchronous : true,
+	        evalScripts : true,
+	        onSuccess : function(e) { $(target).value = e.responseJSON.macAddress }
+        })
+    }
+}

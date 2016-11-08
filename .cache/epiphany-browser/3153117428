@@ -1,0 +1,165 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Tufts Network Registration</title>
+  
+  <meta name="format-detection" content="telephone=no"/>
+
+  <link rel="stylesheet" href="/portal_resources/css/portal.css"/>
+  <link rel="stylesheet" href="/portal_resources/css/custom.css"/>
+  <link rel="stylesheet" href="/portal_resources/html/custom.css"/>
+  
+  
+  <script src="/portal_resources/js/jquery.min.js"></script>
+  <script src="/portal_resources/js/jquery.tools.min.js"></script>
+  <script src="/portal_resources/js/jquery.tools.min.js"></script>
+  <script type="text/javascript">
+    $.noConflict();
+  </script>
+  <script src="/js/prototype/prototype.js"></script>
+  <script src="/js/prototype/jsonp.js"></script>
+  <script src="/js/application.js"></script>
+  <script src="/js/main.js"></script>
+  
+  
+  <title>UBCN Acceptable Use Policy
+</title>
+  <meta name="layout" content="main"/>
+  <script type="text/javascript">
+  	if ( 
+  		window.location.hostname.toLowerCase() != "device-registration-prod-01.it.tufts.edu".toLowerCase() || 
+  		window.location.pathname != "" && window.location.pathname != "/"  || 
+  		window.location.search != "" ||
+  		window.location.hash != ""
+  	)
+  	{
+		window.location = "https://device-registration-prod-01.it.tufts.edu";
+    }
+  </script>
+
+</head>
+
+<body>
+<link rel="shortcut icon" href="/portal_resources/html/favicon.ico"/>
+<!--header-->
+<div id="header">
+  <div class="container">
+
+    <div id="logo">
+      <!--Add Logo link-->
+      <a href="http://it.tufts.edu/" ></a>
+    </div>
+    <div id="section-head">
+      <!--Add title-->
+      <h1><a href="/">Tufts Network Registration</a></h1>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="portal_hr"></div>
+
+
+  <div id="main">
+    <div class="container">
+      
+<!-- UPDATE: Set title for Acceptable Use Policy -->
+  <b>
+  Welcome to the the Tufts University Network
+  </b>
+  <p/>
+  In order to access the Tufts University Network you must agree to comply with Tufts' Information Stewardship Policy and supporting Use and Information Policies (see below.)
+  <p/>
+  After clicking "I Accept", you may access the network. These are your connection options:
+  <p/>
+
+<ul>
+  <li>
+    <span style="text-decoration: underline;"><b>Tufts Secure Wireless</b></span> (recommended for all wireless devices)<br>
+    SSID:  tufts-secure
+    <p/>
+
+    <ul>
+      <li>
+        Login using your Tufts username and password - <b>No additional Device Registration required</b>
+      </li>
+    </ul>
+  </li>
+  <p/>
+
+  <li>
+    <span style="text-decoration: underline;"><b>Tufts Wireless</b></span> (general wireless network)<br>
+    SSID:  tuftswireless
+    <p/>
+  
+    <ul>
+      <li>
+        Login using your Tufts username and password, after which you will be presented with the Device Registration page. - <b>Requires separate Device Registration</b>
+      </li>
+    </ul>
+  </li>
+  <p/>
+
+  <li>
+    <span style="text-decoration: underline;"><b>Tufts Wired</b></span> (recommended for desktop & devices  that do not use wireless connections)
+    <p/>
+
+    <ul>
+      <li>
+      Login using your Tufts username and password, after which you will be presented with the Device Registration page. - <b>Requires separate Device Registration</b>
+      </li>
+    </ul>
+  </li>
+  <p/>
+
+  <li>
+    <span style="text-decoration: underline;"><b>Tufts Guest Wireless</b></span> (Open Guest wireless network)<br>
+    SSID:  tufts-guest
+    <p/>
+
+    <ul>
+      <li>
+        <b>No Login or Device Registration required</b>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+  <p/>
+  If your device does not correctly display the Information Stewardship
+  Policy and supporting Use and Information Policies, you may
+  <a href=/portal_resources/html/rispover.html>click here</a> to view these documents
+  in a simpler format
+    <div class='content'>
+	<!-- UPDATE: Start of Acceptable Use Policy Text -->
+        <div>
+	<iframe src=/portal_resources/html/rispover.html class='aup_scrollbox'></iframe>
+        </div>
+<!-- UPDATE: End of Acceptable Use Policy Text -->
+    </div>
+
+
+
+
+      <br/>
+      
+      <div>
+        <form action="/" method="post" name="aup" style="text-align:center;" class="button" id="aup" >
+          <input type="submit" value="I Decline" name="decline" class="medium-button grey" id="decline" /><input type="submit" value="I Accept" name="accept" class="medium-button" id="accept" />
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+<!-- footer -->
+<div class="portal_hr"></div>
+<div id="footer">
+  <div class="container">
+    <!-- Add footer info  -->
+    <br>
+    Tufts Technology Services | <a href=http://it.tufts.edu>it.tufts.edu</a> | <a href="mailto:it@tufts.edu">it@tufts.edu</a>.
+  </div>
+</div>
+</body>
+</html>
